@@ -96,8 +96,8 @@ async def on_message(message):
             answer_scores["2"] += apgscore
         elif content == "3apg":
             answer_scores["3"] += apgscore
-	
-	elif content == "w1":
+
+        elif content == "w1":
             answer_scores["1"] += apgscore
         elif content == "w2":
             answer_scores["2"] += apgscore
