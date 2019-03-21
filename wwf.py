@@ -5,7 +5,7 @@ import asyncio
 
 
 bot_channel_id = discord.Object(id='557983875209625630')
-oot_channel_id_list = ["557983875209625630","525131707410677761","523359669280833536","513818250652680213"]
+oot_channel_id_list = ["557983875209625630","543902740271595570","530200355729047552","547614052965154838"]
 
 sent_new_message = False
 answer_scores = {
@@ -95,6 +95,13 @@ async def on_message(message):
         elif content == "2apg":
             answer_scores["2"] += apgscore
         elif content == "3apg":
+            answer_scores["3"] += apgscore
+	
+	elif content == "w1":
+            answer_scores["1"] += apgscore
+        elif content == "w2":
+            answer_scores["2"] += apgscore
+        elif content == "w3":
             answer_scores["3"] += apgscore
         
         elif content in ["not1", "n1","N1"]:
