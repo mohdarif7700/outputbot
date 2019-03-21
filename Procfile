@@ -1,1 +1,1 @@
-worker: python theqqlive.py
+worker: python wwf.py
