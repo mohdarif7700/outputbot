@@ -59,18 +59,24 @@ async def on_message(message):
             data.counter_private_1 += 5
         elif message.content == 'cnf1' or message.content == '1cnf' or message.content == '1 cnf':
             data.counter_private_1 += 15
+        elif message.content == 'not 1' or message.content == 'n1':
+            data.wronggone1 = 1
         elif message.content == '2' or message.content == '2apg' or message.content == '2 apg':
             data.counter_private_2 += 10
         elif message.content == '2?' or message.content == '?2':
             data.counter_private_2 += 5
         elif message.content == 'cnf2' or message.content == '2cnf' or message.content == '2 cnf':
             data.counter_private_2 += 15
+        elif message.content == 'not 2' or message.content == 'n2':
+            data.wronggone2 = 1
         elif message.content == '3' or message.content == '3apg' or message.content == '3 apg':
             data.counter_private_3 += 10
         elif message.content == '3?' or message.content == '?3':
             data.counter_private_3 += 5
         elif message.content == 'cnf3' or message.content == '3cnf' or message.content == '3 cnf':
             data.counter_private_3 += 15
+        elif message.content == 'not 3' or message.content == 'n3':
+            data.wronggone3 = 1
 
     if data.game_in_session and message.channel.id in data.input_hq_public:
         if message.content == '1' or message.content == '1apg' or message.content == '1 apg':
