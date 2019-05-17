@@ -1,1 +1,1 @@
-worker: python wwf.py
+worker: python bot.py & python selfbot.py & wait -n
