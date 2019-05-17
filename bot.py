@@ -47,8 +47,8 @@ def update_embed():
         
 
         
-        await bot.add_reaction(emoji="✅")
-        await bot.add_reaction(emoji="❌")
+        
+        
         data.embed_best.set_field_at(0, name="Best answer:", value=best_answer, inline=True)
 
 
