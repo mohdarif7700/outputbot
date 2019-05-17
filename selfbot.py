@@ -79,7 +79,7 @@ async def on_message(message):
             data.counter_public_1 += 5
         elif message.content == '1q' or message.content == 'q1':
             data.counter_public_1 += 100
-        elif message.content == '1x' or message.content == 'x1':
+        elif message.content == 'not 1 ' or message.content == 'n1':
             data.wronggone1 = 1
         elif message.content == 'cnf1' or message.content == '1cnf' or message.content == '1 cnf':
             data.counter_public_1 += 15
@@ -89,7 +89,7 @@ async def on_message(message):
             data.counter_public_2 += 5
         elif message.content == '2q' or message.content == 'q2':
             data.counter_public_2 += 100
-        elif message.content == '2x' or message.content == 'x2':
+        elif message.content == 'not 2' or message.content == 'n2':
             data.wronggone2 = 1
         elif message.content == 'cnf2' or message.content == '2cnf' or message.content == '2 cnf':
             data.counter_public_2 += 15
@@ -99,7 +99,7 @@ async def on_message(message):
             data.counter_public_3 += 5
         elif message.content == '3q' or message.content == 'q3':
             data.counter_public_3 += 100
-        elif message.content == '3x' or message.content == 'x3':
+        elif message.content == 'not 3' or message.content == 'n3':
             data.wronggone3 = 1
         elif message.content == 'cnf3' or message.content == '3cnf' or message.content == '3 cnf':
             data.counter_public_3 += 15
