@@ -37,6 +37,7 @@ def update_embed():
         data.embed.add_field(name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
         
         data.embed.set_footer(text= 'MATRICKS GAMING')
+        answer_message = await send_embed(client,embed)
 
         data.embed_best = discord.Embed(title='', color=0x89cff0)
         data.embed_best.add_field(name="Best answer:", value=best_answer, inline=True)
@@ -44,7 +45,9 @@ def update_embed():
         data.embed.set_field_at(0, name="Answer 1", value= highlighter1 + str(number1) + highlighter1, inline=False)
         data.embed.set_field_at(1, name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.set_field_at(2, name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
-
+        x = await edit_embed(client, answer_message, embed)
+        await bot.add_reaction(x,emoji="✅")
+        await bot.add_reaction(x,emoji="❌")
         data.embed_best.set_field_at(0, name="Best answer:", value=best_answer, inline=True)
 
 
