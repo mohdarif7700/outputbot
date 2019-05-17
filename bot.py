@@ -35,8 +35,8 @@ def update_embed():
         data.embed.add_field(name="Answer 1", value= highlighter1 + str(number1) + highlighter1, inline=False)
         data.embed.add_field(name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.add_field(name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
-        data.embed.set_image(url='https://cdn.discordapp.com/attachments/559357612068700183/566999873430355968/13-26-52-nitro_1.gif')
-        data.embed.set_footer(text= 'By: ')
+        
+        data.embed.set_footer(text= 'MATRICKS GAMING')
 
         data.embed_best = discord.Embed(title='', color=0x89cff0)
         data.embed_best.add_field(name="Best answer:", value=best_answer, inline=True)
