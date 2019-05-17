@@ -44,11 +44,11 @@ def update_embed():
         data.embed.set_field_at(0, name="Answer 1", value= highlighter1 + str(number1) + highlighter1, inline=False)
         data.embed.set_field_at(1, name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.set_field_at(2, name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
-        answer_message = await send_embed(client,embed)
+        
 
-        x = await edit_embed(client, answer_message, embed)
-        await bot.add_reaction(x,emoji="✅")
-        await bot.add_reaction(x,emoji="❌")
+        
+        await bot.add_reaction(emoji="✅")
+        await bot.add_reaction(emoji="❌")
         data.embed_best.set_field_at(0, name="Best answer:", value=best_answer, inline=True)
 
 
