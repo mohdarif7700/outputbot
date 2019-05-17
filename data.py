@@ -46,7 +46,7 @@ input_hq_private  = [
     "570257859850272788", 
     '570157698918907915' 
 ]
-input_hq_public = []
+input_hq_public = ['']
 command_channel = '557983875209625630' #trivia-answers
 admin_chat = '557983875209625630' # answers2
 
