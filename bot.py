@@ -36,7 +36,7 @@ def update_embed():
         data.embed.add_field(name="Answer 2", value= highlighter2 + str(number2) + highlighter2, inline=False)
         data.embed.add_field(name="Answer 3", value= highlighter3 + str(number3) + highlighter3, inline=False)
         
-        data.embed.set_footer(text= 'MATRICKS GAMING')
+        data.embed.set_footer(text= '© RAHUL DAGUR')
         
         data.embed_best = discord.Embed(title='', color=0x89cff0)
         data.embed_best.add_field(name="Best answer:", value=best_answer, inline=True)
