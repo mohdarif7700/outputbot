@@ -23,7 +23,7 @@ def  init():
     global weight_time
     global seconds_elapsed
 
-bot_token = 'NTU3OTEzMzkwNjY4ODQwOTYz.XOOOGg.6AQD9Ro2azeQAidTFs6KL0kmJuQ'
+bot_token = 'NTgwMjM3MDE5MjcyNDQ1OTY0.XOOO9w.k8gleY3KPxwD4b7n9sLl0r09SKk'
 self_bot_token = 'NDcxNzUzNjA2Nzk0NTc1ODky.D3DLjw.r9t-wvWsJq-IJ9Y7PvLU2DJ6_ZE'
 
 message = None
@@ -31,14 +31,14 @@ embed = None
 embed_best = None
 
 #trivia-answers
-output_channel = discord.Object(id= '580211268971921409')
+output_channel = discord.Object(id= '580267940843356181')
 
 input_hq_private  = [
-    "513818250652680213","523359669280833536","580198028950896640","580211268971921409" 
+    "513818250652680213","523359669280833536","580198028950896640","580267940843356181" 
 ]
 input_hq_public = ['580211268971921409']
-command_channel = '580211268971921409' #trivia-answers
-admin_chat = '580211268971921409' # answers2
+command_channel = '5580267940843356181' #trivia-answers
+admin_chat = 580267940843356181' # answers2
 
 game_in_session = True
 counter_public_1 = 0
