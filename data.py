@@ -38,7 +38,7 @@ input_hq_private  = [
 ]
 input_hq_public = ['580211268971921409']
 command_channel = '5580267940843356181' #trivia-answers
-admin_chat = 580267940843356181' # answers2
+admin_chat = '580267940843356181' # answers2
 
 game_in_session = True
 counter_public_1 = 0
