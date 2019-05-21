@@ -31,13 +31,13 @@ embed = None
 embed_best = None
 
 #trivia-answers
-output_channel = discord.Object(id= '580267940843356181')
+output_channel = discord.Object(id= '557983875209625630')
 
 input_hq_private  = [
-    "513818250652680213","523359669280833536","580198028950896640","580267940843356181" 
+    "557983875209625630,"523359669280833536","580198028950896640","580267940843356181" 
 ]
-input_hq_public = ['580211268971921409']
-command_channel = '5580267940843356181' #trivia-answers
+input_hq_public = ['557983875209625630']
+command_channel = '557983875209625630' #trivia-answers
 admin_chat = '580267940843356181' # answers2
 
 game_in_session = True
